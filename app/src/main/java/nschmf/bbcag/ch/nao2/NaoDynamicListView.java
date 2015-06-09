@@ -1,29 +1,19 @@
 package nschmf.bbcag.ch.nao2;
 
-import android.content.ClipData;
-import android.content.ClipDescription;
 import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.nhaarman.listviewanimations.appearance.simple.AlphaInAnimationAdapter;
 import com.nhaarman.listviewanimations.itemmanipulation.DynamicListView;
 import com.nhaarman.listviewanimations.util.Swappable;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import model.Command;
@@ -105,7 +95,4 @@ public class NaoDynamicListView extends ActionBarActivity {
             mainContentList.set(i2, tmp);
         }
     }
-
-
-
 }
