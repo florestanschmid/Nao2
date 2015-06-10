@@ -42,15 +42,12 @@ public class NaoDynamicListView extends ActionBarActivity {
         mainContentListView.setOnItemLongClickListener(
                 new AdapterView.OnItemLongClickListener() {
                     @Override
-                    public boolean onItemLongClick(final AdapterView<?> parent, final View view,
-                                                   final int position, final long id) {
+                    public boolean onItemLongClick(final AdapterView<?> parent, final View view, final int position, final long id) {
                         mainContentListView.startDragging(position);
                         return true;
                     }
                 }
         );
-
-
     }
 
     private class ObjectListArrayAdapter extends BaseAdapter implements Swappable{
